@@ -1,0 +1,21 @@
+.neontext {
+  -webkit-animation: neontext 1.5s ease-in-out infinite alternate;
+  -moz-animation: neontext 1.5s ease-in-out infinite alternate;
+  animation: neontext 1.5s ease-in-out infinite alternate;
+}
+@keyframes neontext {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #FFDD1B, 0 0 70px #FFDD1B, 0 0 80px #FFDD1B, 0 0 100px #FFDD1B, 0 0 150px #FFDD1B;
+  }
+  to {
+    text-shadow: 0 0 15px #fff, 0 0 50px #fff, 0 0 75px #fff, 0 0 100px #FFDD1B, 0 0 125px #FFDD1B, 0 0 150px #FFDD1B, 0 0 200px #FFDD1B, 0 0 250px #FFDD1B;
+  }
+}
+@keyframes neonbox {
+  from {
+    box-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #FFDD1B, 0 0 70px #FFDD1B, 0 0 80px #FFDD1B, 0 0 100px #FFDD1B, 0 0 150px #FFDD1B;
+  }
+  to {
+    box-shadow: 0 0 15px #fff, 0 0 50px #fff, 0 0 75px #fff, 0 0 100px #FFDD1B, 0 0 125px #FFDD1B, 0 0 150px #FFDD1B, 0 0 200px #FFDD1B, 0 0 250px #FFDD1B;
+  }
+}
